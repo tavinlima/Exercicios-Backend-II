@@ -1,0 +1,16 @@
+C:\Users\Silvana\Desktop\Backend II - Exercicios\Atividade - 19-05-2021\AulaPOOCelular\bin\Debug\net5.0\AulaPOOCelular.exe
+C:\Users\Silvana\Desktop\Backend II - Exercicios\Atividade - 19-05-2021\AulaPOOCelular\bin\Debug\net5.0\AulaPOOCelular.deps.json
+C:\Users\Silvana\Desktop\Backend II - Exercicios\Atividade - 19-05-2021\AulaPOOCelular\bin\Debug\net5.0\AulaPOOCelular.runtimeconfig.json
+C:\Users\Silvana\Desktop\Backend II - Exercicios\Atividade - 19-05-2021\AulaPOOCelular\bin\Debug\net5.0\AulaPOOCelular.runtimeconfig.dev.json
+C:\Users\Silvana\Desktop\Backend II - Exercicios\Atividade - 19-05-2021\AulaPOOCelular\bin\Debug\net5.0\AulaPOOCelular.dll
+C:\Users\Silvana\Desktop\Backend II - Exercicios\Atividade - 19-05-2021\AulaPOOCelular\bin\Debug\net5.0\ref\AulaPOOCelular.dll
+C:\Users\Silvana\Desktop\Backend II - Exercicios\Atividade - 19-05-2021\AulaPOOCelular\bin\Debug\net5.0\AulaPOOCelular.pdb
+C:\Users\Silvana\Desktop\Backend II - Exercicios\Atividade - 19-05-2021\AulaPOOCelular\obj\Debug\net5.0\AulaPOOCelular.csprojAssemblyReference.cache
+C:\Users\Silvana\Desktop\Backend II - Exercicios\Atividade - 19-05-2021\AulaPOOCelular\obj\Debug\net5.0\AulaPOOCelular.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Silvana\Desktop\Backend II - Exercicios\Atividade - 19-05-2021\AulaPOOCelular\obj\Debug\net5.0\AulaPOOCelular.AssemblyInfoInputs.cache
+C:\Users\Silvana\Desktop\Backend II - Exercicios\Atividade - 19-05-2021\AulaPOOCelular\obj\Debug\net5.0\AulaPOOCelular.AssemblyInfo.cs
+C:\Users\Silvana\Desktop\Backend II - Exercicios\Atividade - 19-05-2021\AulaPOOCelular\obj\Debug\net5.0\AulaPOOCelular.csproj.CoreCompileInputs.cache
+C:\Users\Silvana\Desktop\Backend II - Exercicios\Atividade - 19-05-2021\AulaPOOCelular\obj\Debug\net5.0\AulaPOOCelular.dll
+C:\Users\Silvana\Desktop\Backend II - Exercicios\Atividade - 19-05-2021\AulaPOOCelular\obj\Debug\net5.0\ref\AulaPOOCelular.dll
+C:\Users\Silvana\Desktop\Backend II - Exercicios\Atividade - 19-05-2021\AulaPOOCelular\obj\Debug\net5.0\AulaPOOCelular.pdb
+C:\Users\Silvana\Desktop\Backend II - Exercicios\Atividade - 19-05-2021\AulaPOOCelular\obj\Debug\net5.0\AulaPOOCelular.genruntimeconfig.cache
