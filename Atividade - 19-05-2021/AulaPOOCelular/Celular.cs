@@ -5,10 +5,10 @@ namespace AulaPOOCelular
         public string color;
         public string modelo;
         public float tamanho;
-        public bool ligado = true;
+        public bool ligado;
 
         public void Ligar(){
-            
+            ligado = true;
         }
         public void Desligar(){
             ligado = false;
