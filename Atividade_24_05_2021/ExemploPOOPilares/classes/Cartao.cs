@@ -2,7 +2,7 @@ using System;
 
 namespace ExemploPOOPilares.classes
 {
-    public class Cartaocs : Pagamento
+    public abstract class Cartaocs : Pagamento
     {
         public string bandeira;
         public string numero;
