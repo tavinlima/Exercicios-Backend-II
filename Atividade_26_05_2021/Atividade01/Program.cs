@@ -15,11 +15,11 @@ namespace Atividade01
             se.Inicializar();
 
             Console.WriteLine($@"
-            Qual elevador deseja utilizar?
+Qual elevador deseja utilizar?
 
-                    1 - Social
+        1 - Social
 
-                    2 - Serviço
+        2 - Serviço
             ");
             string opcao = Console.ReadLine();
 
@@ -27,29 +27,41 @@ namespace Atividade01
             {
                 do
                 {
-                    so.Entrar();
-                    Console.WriteLine("O que deseja fazer? Selecione s - para subir ou d - para descer");
-                    string opcaoAndar = Console.ReadLine().ToLower();
+                    Console.WriteLine($@"
+O que deseja fazer? Selecione
 
-                    if (opcaoAndar == "s")
+ 1 - Entrar
+ 2 - Subir 
+ 3 - Descer
+ 4 - Sair
+ ");
+                    string opcaoAndar = Console.ReadLine();
+
+                    switch (opcaoAndar)
                     {
-                        so.Subir();
+                        case "1":
+                            so.Entrar();
+                            break;
+                        case "2":
+                            so.Subir();
+                            break;
+                        case "3":
+                            so.Descer();
+                            break;
+                        case "4":
+                            so.Sair();
+                            if (so.qntdPessoas == 0)
+                            {
+                                utilizarElevador = false;
+                            }
+                            break;
+                        default:
+                            Console.ForegroundColor = ConsoleColor.DarkRed;
+                            Console.WriteLine("OPERAÇÃO INVÁLIDA!!!");
+                            Console.ResetColor();
+                            break;
                     }
 
-                    else if (opcaoAndar == "d")
-                    {
-                        so.Descer();
-                    }
-                    so.Sair();
-                    Console.WriteLine("Deseja utilizar o outro elevador? S/N");
-                    string outroElevador = Console.ReadLine().ToUpper();
-                    if (outroElevador == "S")
-                    {
-                        utilizarElevador = false;
-                    }
-                    else{
-                        utilizarElevador = true;
-                    }
                 } while (utilizarElevador);
 
             }
@@ -57,35 +69,44 @@ namespace Atividade01
             {
                 do
                 {
-                    se.Entrar();
-                    Console.WriteLine("Deseja alterar o número de caixas? S/N");
-                    string altCaixas = Console.ReadLine().ToUpper();
+                    Console.WriteLine($@"
+O que deseja fazer? Selecione
 
-                    if (altCaixas == "S")
-                    {
-                        se.numCaixas();
-                    }
-                    Console.WriteLine("O que deseja fazer? Selecione s - para subir ou d - para descer");
-                    string opcaoAndar = Console.ReadLine().ToLower();
+ 1 - Entrar
+ 2 - Subir 
+ 3 - Descer
+ 5 - Modificar número de caixas
 
-                    if (opcaoAndar == "s")
-                    {
-                        se.Subir();
-                    }
+ 4 - Sair
+ ");
+                    string opcaoAndar = Console.ReadLine();
 
-                    else if (opcaoAndar == "d")
+                    switch (opcaoAndar)
                     {
-                        se.Descer();
-                    }
-                    se.Sair();
-                    Console.WriteLine("Deseja utilizar o outro elevador? S/N");
-                    string outroElevador = Console.ReadLine().ToUpper();
-                    if (outroElevador == "S")
-                    {
-                        utilizarElevador = false;
-                    }
-                    else{
-                        utilizarElevador = true;
+                        case "1":
+                            se.Entrar();
+                            break;
+                        case "2":
+                            se.Subir();
+                            break;
+                        case "3":
+                            se.Descer();
+                            break;
+                        case "4":
+                            se.numCaixas();
+                            break;
+                        case "5":
+                            se.Sair();
+                            if (so.qntdPessoas == 0)
+                            {
+                                utilizarElevador = false;
+                            }
+                            break;
+                        default:
+                            Console.ForegroundColor = ConsoleColor.DarkRed;
+                            Console.WriteLine("OPERAÇÃO INVÁLIDA!!!");
+                            Console.ResetColor();
+                            break;
                     }
                 } while (utilizarElevador);
             }
